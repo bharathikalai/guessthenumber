@@ -18,7 +18,7 @@ while turns > 0:
     failed = 0
 
     for char in word:
-        print("the real gusses",guesses)
+        # print("the real gusses",guesses)
         if char in guesses:
             
             print(char, end= " ")
